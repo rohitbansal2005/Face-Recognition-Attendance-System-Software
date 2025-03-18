@@ -156,9 +156,8 @@ For support, please open an issue in the repository or contact the maintainers.
 
 ## 📞 Contact
 
-- 📧 Email: your.email@example.com
+- 📧 Email: rohitbansal.dev@gmail.com
 - 🌐 Website: your-website.com
-- 💬 Discord: your-discord-server
 
 ## 📝 Version History
 
