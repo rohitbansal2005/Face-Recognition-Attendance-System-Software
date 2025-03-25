@@ -27,7 +27,7 @@ Before running this project, make sure you have the following installed:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/rohitbansal2005/Face-Recognition-Attendance-System-Software
 ```
 
 2. Install the required packages:
@@ -35,6 +35,7 @@ git clone <repository-url>
 pip install opencv-python
 pip install pillow
 pip install mysql-connector-python
+pip install numpy
 ```
 
 3. Set up your MySQL database and update the connection details in the code.
@@ -69,25 +70,35 @@ graph TD
     H --> M[End]
     L --> M
 ```
+🚀 Usage Guide
+Step 1: Start the Application
+1.Run the main application:
 
-## 🚀 Usage
+```bash
+python login.py
+```
+2.The system will open the Login Interface.
 
-### Training the System
+Step 2: Register Users
+After logging in, navigate to the Registration Interface:
+-The registration module allows you to add new users to the system.
 
-1. Run the training module:
+Step 3: Capture Photos for Face Recognition
+1.Open the Student Management System Interface.
+2.Use the Photo Sample option to capture images of the user's face:
+-These photos will be stored in the Data directory for training.
+
+Step 4: Train the System
+1.Run the training module:
+
 ```bash
 python train.py
 ```
+2.Click on the "TRAIN DATA" button to process all the captured images and train the classifier.
 
-2. Click on the "TRAIN DATA" button to start the training process
-3. The system will process all images in the Data directory and create a classifier
-
-### Face Recognition
-
-1. Run the main application:
-```bash
-python face_recognition.py
-```
+Step 5: Perform Face Recognition
+1.Once training is complete, proceed to the Face Recognition Interface:
+-This interface allows real-time face recognition using the trained classifier.
 
 2. Use the interface to:
    - 📸 Capture new face images
@@ -140,10 +151,6 @@ CREATE TABLE attendance (
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
 - OpenCV for face detection and recognition capabilities
@@ -157,8 +164,7 @@ For support, please open an issue in the repository or contact the maintainers.
 ## 📞 Contact
 
 - 📧 Email: rohitbansal.dev@gmail.com
-- 🌐 Website: your-website.com
-
+  
 ## 📝 Version History
 
 - v1.0.0 - Initial Release
