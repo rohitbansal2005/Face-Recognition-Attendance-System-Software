@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/23ffbe8f-64e8-414c-8590-a02c0689bf49
+
+![Screenshot 2025-03-13 125619](https://github.com/user-attachments/assets/b817d364-fc82-4133-a018-1474e27da821)
+![Screenshot 2025-03-13 125534](https://github.com/user-attachments/assets/6d7236dc-1656-47a3-8270-8bb4bbc9c02c)
+![Screenshot 2025-03-13 125505](https://github.com/user-attachments/assets/ddee29e1-bcdb-43c9-b261-93b92c2f238b)
+![Screenshot 2025-03-13 125436](https://github.com/user-attachments/assets/1f93d675-32a2-4990-9bb2-a971c37117ee)
 # 👤 Face Recognition System
 
 A comprehensive face recognition system built with Python, OpenCV, and Tkinter that allows for face detection, training, and recognition.
